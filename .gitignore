@@ -1,0 +1,4 @@
+# Directories to be excluded
+src/__pycache__/
+
+# Files to be excluded
