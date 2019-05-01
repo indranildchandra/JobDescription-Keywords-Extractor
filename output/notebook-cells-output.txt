@@ -1,0 +1,395 @@
+Print 10 example words from each of the three dictionaries formed:
+
+7454 words present in job_description_dictionary.
+Examples from job_description_dictionary...
+0 ameria
+1 assistance
+2 chief
+3 company
+4 consult
+5 director
+6 executive
+7 financial
+8 function
+9 highly
+10 investment
+
+9821 words present in job_requirement_dictionary.
+Examples from job_requirement_dictionary...
+0 accounting
+1 action
+2 activity
+3 adequacy
+4 administration
+5 article
+6 assigning
+7 assist
+8 board
+9 budget
+10 cash
+
+7758 words present in required_qualification_dictionary.
+Examples from required_qualification_dictionary...
+0 ability
+1 acca
+2 accounting
+3 accounting/
+4 activity
+5 administration
+6 analysis
+7 analytical
+8 and/or
+9 application
+10 audience
+
+----------------------------------------------------------------
+Preview Bag-of-Words on a sample pre-processed document:
+
+Examples from job_description_bow_corpus...
+Word 14 ("position") appears 1 time.
+Word 149 ("communication") appears 1 time.
+Word 150 ("concept") appears 1 time.
+Word 151 ("design") appears 1 time.
+Word 152 ("designer") appears 1 time.
+Word 153 ("experience") appears 1 time.
+Word 154 ("field") appears 1 time.
+Word 155 ("graphic") appears 1 time.
+Word 156 ("medium") appears 1 time.
+Word 157 ("since") appears 1 time.
+Word 158 ("study") appears 1 time.
+
+Examples from job_requirement_bow_corpus...
+Word 11 ("client") appears 1 time.
+Word 25 ("development") appears 1 time.
+Word 28 ("documentation") appears 1 time.
+Word 64 ("product") appears 1 time.
+Word 82 ("team") appears 1 time.
+Word 111 ("communication") appears 1 time.
+Word 123 ("group") appears 1 time.
+Word 137 ("project") appears 1 time.
+Word 164 ("software") appears 1 time.
+Word 266 ("also") appears 1 time.
+Word 267 ("designer") appears 1 time.
+Word 268 ("every") appears 1 time.
+Word 269 ("graphic") appears 1 time.
+Word 270 ("guide") appears 1 time.
+Word 271 ("house") appears 1 time.
+Word 272 ("interface") appears 1 time.
+Word 273 ("marketing") appears 1 time.
+Word 274 ("material") appears 1 time.
+Word 275 ("packaging") appears 1 time.
+Word 276 ("presentation") appears 1 time.
+Word 277 ("subsidiary") appears 1 time.
+Word 278 ("user") appears 2 time.
+Word 279 ("website") appears 1 time.
+
+Examples from required_qualification_bow_corpus...
+Word 0 ("ability") appears 2 time.
+Word 6 ("analysis") appears 1 time.
+Word 8 ("and/or") appears 1 time.
+Word 18 ("communication") appears 1 time.
+Word 20 ("computer") appears 1 time.
+Word 29 ("development") appears 1 time.
+Word 33 ("english") appears 1 time.
+Word 36 ("experience") appears 2 time.
+Word 52 ("knowledge") appears 1 time.
+Word 80 ("skill") appears 2 time.
+Word 89 ("team") appears 1 time.
+Word 95 ("well") appears 2 time.
+Word 97 ("work") appears 1 time.
+Word 102 ("language") appears 1 time.
+Word 111 ("field") appears 1 time.
+Word 134 ("2000") appears 1 time.
+Word 155 ("organization") appears 1 time.
+Word 165 ("office") appears 1 time.
+Word 188 ("member") appears 1 time.
+Word 240 ("capability") appears 1 time.
+Word 241 ("community") appears 1 time.
+Word 242 ("compulsory") appears 1 time.
+Word 243 ("consultancy") appears 1 time.
+Word 244 ("document") appears 1 time.
+Word 245 ("economics") appears 1 time.
+Word 246 ("education") appears 1 time.
+Word 247 ("higher") appears 1 time.
+Word 248 ("initiative") appears 1 time.
+Word 249 ("overtime") appears 1 time.
+Word 250 ("pressure") appears 1 time.
+Word 251 ("sector") appears 1 time.
+Word 252 ("sufficient") appears 1 time.
+Word 253 ("time") appears 1 time.
+Word 254 ("travel") appears 1 time.
+
+----------------------------------------------------------------
+Display top 10 words in each topic of each model:
+
+Job Description Topics (BoW): 
+Topic: 0 
+Words: 0.058*"center" + 0.056*"language" + 0.036*"specialist" + 0.036*"education" + 0.035*"armenia" + 0.031*"international" + 0.030*"student" + 0.025*"card" + 0.022*"english" + 0.019*"position"
+Topic: 1 
+Words: 0.067*"program" + 0.051*"training" + 0.031*"armenia" + 0.025*"yerevan" + 0.022*"position" + 0.021*"foundation" + 0.019*"coordinator" + 0.017*"country" + 0.015*"office" + 0.014*"staff"
+Topic: 2 
+Words: 0.079*"sales" + 0.045*"company" + 0.036*"product" + 0.033*"incumbent" + 0.031*"representative" + 0.028*"customer" + 0.028*"manager" + 0.025*"medical" + 0.023*"store" + 0.015*"services"
+Topic: 3 
+Words: 0.066*"system" + 0.041*"network" + 0.035*"maintenance" + 0.031*"engineer" + 0.030*"support" + 0.029*"database" + 0.028*"incumbent" + 0.028*"design" + 0.024*"administrator" + 0.021*"construction"
+Topic: 4 
+Words: 0.067*"bank" + 0.047*"credit" + 0.035*"specialist" + 0.030*"department" + 0.029*"cjsc" + 0.027*"loan" + 0.022*"incumbent" + 0.022*"head" + 0.021*"armenia" + 0.020*"position"
+Topic: 5 
+Words: 0.142*"project" + 0.029*"armenia" + 0.022*"consultant" + 0.019*"team" + 0.019*"implementation" + 0.018*"health" + 0.014*"services" + 0.014*"supervision" + 0.012*"manager" + 0.011*"support"
+Topic: 6 
+Words: 0.044*"armenia" + 0.043*"development" + 0.041*"project" + 0.039*"program" + 0.025*"usaid" + 0.022*"specialist" + 0.019*"sector" + 0.015*"market" + 0.014*"component" + 0.013*"value"
+Topic: 7 
+Words: 0.096*"marketing" + 0.055*"sales" + 0.053*"business" + 0.044*"company" + 0.043*"manager" + 0.036*"development" + 0.035*"product" + 0.033*"strategy" + 0.027*"market" + 0.026*"incumbent"
+Topic: 8 
+Words: 0.085*"software" + 0.062*"development" + 0.047*"engineer" + 0.047*"application" + 0.036*"team" + 0.034*"design" + 0.026*"developer" + 0.024*"senior" + 0.022*"product" + 0.021*"project"
+Topic: 9 
+Words: 0.084*"chief" + 0.083*"accountant" + 0.049*"accounting" + 0.029*"company" + 0.026*"translation" + 0.022*"incumbent" + 0.021*"lawyer" + 0.019*"news" + 0.019*"language" + 0.017*"translator"
+Topic: 10 
+Words: 0.029*"management" + 0.026*"incumbent" + 0.026*"analysis" + 0.023*"data" + 0.022*"procedure" + 0.022*"business" + 0.020*"risk" + 0.019*"report" + 0.018*"policy" + 0.018*"finance"
+Topic: 11 
+Words: 0.044*"programme" + 0.028*"office" + 0.026*"expert" + 0.017*"activity" + 0.016*"incumbent" + 0.016*"osce" + 0.015*"yerevan" + 0.014*"application" + 0.014*"area" + 0.014*"analyst"
+Topic: 12 
+Words: 0.020*"communications" + 0.019*"incumbent" + 0.017*"relations" + 0.017*"information" + 0.016*"food" + 0.016*"border" + 0.014*"communication" + 0.012*"shop" + 0.012*"armenia" + 0.012*"public"
+Topic: 13 
+Words: 0.038*"development" + 0.030*"project" + 0.030*"implementation" + 0.030*"activity" + 0.025*"program" + 0.020*"community" + 0.019*"management" + 0.018*"monitoring" + 0.017*"incumbent" + 0.015*"armenia"
+Topic: 14 
+Words: 0.082*"customer" + 0.062*"service" + 0.022*"incumbent" + 0.018*"quality" + 0.016*"opportunity" + 0.014*"center" + 0.014*"support" + 0.013*"need" + 0.013*"intern" + 0.013*"services"
+Topic: 15 
+Words: 0.166*"position" + 0.138*"candidate" + 0.062*"company" + 0.039*"highly" + 0.038*"cjsc" + 0.031*"person" + 0.022*"manager" + 0.017*"specialist" + 0.017*"team" + 0.016*"supervision"
+Topic: 16 
+Words: 0.069*"developer" + 0.049*"team" + 0.047*"development" + 0.042*"company" + 0.036*"software" + 0.028*"experience" + 0.027*"position" + 0.023*"project" + 0.022*"highly" + 0.020*"product"
+Topic: 17 
+Words: 0.054*"designer" + 0.036*"medium" + 0.035*"design" + 0.034*"website" + 0.031*"content" + 0.026*"hotel" + 0.013*"graphic" + 0.012*"material" + 0.011*"picsart" + 0.009*"work"
+Topic: 18 
+Words: 0.052*"office" + 0.049*"director" + 0.044*"management" + 0.043*"manager" + 0.034*"assistant" + 0.027*"supervision" + 0.026*"operations" + 0.022*"executive" + 0.022*"activity" + 0.022*"incumbent"
+Topic: 19 
+Words: 0.030*"research" + 0.025*"armenia" + 0.017*"management" + 0.015*"program" + 0.015*"event" + 0.013*"individual" + 0.013*"tool" + 0.010*"staff" + 0.010*"system" + 0.009*"documentation"
+
+
+Job Description Topics (TF-IDF): 
+Topic: 0 
+Words: 0.033*"cjsc" + 0.023*"haypost" + 0.019*"credit" + 0.018*"position" + 0.016*"specialist" + 0.016*"self" + 0.015*"division" + 0.015*"skill" + 0.014*"bank" + 0.014*"internal"
+Topic: 1 
+Words: 0.031*"medical" + 0.027*"representative" + 0.015*"education" + 0.014*"pharmaceutical" + 0.013*"product" + 0.013*"pharmacist" + 0.013*"region" + 0.012*"doctor" + 0.011*"telecommunication" + 0.011*"promotion"
+Topic: 2 
+Words: 0.019*"cascade" + 0.015*"holding" + 0.013*"insurance" + 0.013*"candidate" + 0.013*"position" + 0.013*"hotel" + 0.012*"idea" + 0.012*"foundation" + 0.010*"general" + 0.010*"style"
+Topic: 3 
+Words: 0.049*"accountant" + 0.048*"accounting" + 0.030*"chief" + 0.023*"company" + 0.020*"financial" + 0.017*"supervision" + 0.017*"director" + 0.017*"assistant" + 0.015*"department" + 0.015*"duty"
+Topic: 4 
+Words: 0.026*"feature" + 0.021*"news" + 0.019*"sourcio" + 0.015*"language" + 0.014*"partner" + 0.013*"agency" + 0.012*"english" + 0.012*"repair" + 0.011*"product" + 0.011*"translation"
+Topic: 5 
+Words: 0.026*"branch" + 0.025*"bank" + 0.023*"loan" + 0.020*"customer" + 0.018*"lending" + 0.015*"service" + 0.015*"converse" + 0.012*"kamurj" + 0.012*"incumbent" + 0.010*"cash"
+Topic: 6 
+Words: 0.015*"secretary" + 0.010*"retail" + 0.010*"sponsorship" + 0.010*"translator" + 0.010*"language" + 0.009*"chain" + 0.009*"commercial" + 0.009*"baldi" + 0.009*"sponsor" + 0.008*"candidate"
+Topic: 7 
+Words: 0.021*"customer" + 0.013*"sales" + 0.012*"client" + 0.011*"phone" + 0.011*"service" + 0.010*"plant" + 0.009*"manager" + 0.008*"systrotech" + 0.007*"incumbent" + 0.007*"data"
+Topic: 8 
+Words: 0.014*"shop" + 0.013*"customer" + 0.011*"driver" + 0.011*"engineering" + 0.011*"company" + 0.010*"team" + 0.010*"support" + 0.010*"joomag" + 0.009*"incumbent" + 0.008*"aspect"
+Topic: 9 
+Words: 0.010*"credit" + 0.009*"project" + 0.009*"management" + 0.008*"risk" + 0.008*"procedure" + 0.008*"policy" + 0.007*"incumbent" + 0.007*"analysis" + 0.006*"activity" + 0.006*"bank"
+Topic: 10 
+Words: 0.016*"manual" + 0.015*"trading" + 0.012*"expertise" + 0.011*"focus" + 0.010*"area" + 0.010*"service" + 0.010*"food" + 0.010*"water" + 0.009*"class" + 0.009*"volume"
+Topic: 11 
+Words: 0.015*"mainly" + 0.014*"parts" + 0.013*"candidate" + 0.012*"armentel" + 0.011*"tourism" + 0.010*"company" + 0.010*"import" + 0.010*"territory" + 0.009*"flash" + 0.009*"vehicle"
+Topic: 12 
+Words: 0.035*"developer" + 0.025*"desk" + 0.024*"application" + 0.024*"primarily" + 0.022*"president" + 0.020*"company" + 0.018*"android" + 0.017*"multiplatform" + 0.016*"monitis" + 0.016*"java"
+Topic: 13 
+Words: 0.024*"network" + 0.024*"administrator" + 0.022*"system" + 0.017*"database" + 0.015*"security" + 0.014*"maintenance" + 0.011*"server" + 0.011*"installation" + 0.011*"mobile" + 0.011*"tech"
+Topic: 14 
+Words: 0.022*"experience" + 0.020*"developer" + 0.019*"programming" + 0.019*"software" + 0.018*"development" + 0.016*"knowledge" + 0.016*"user" + 0.015*".net" + 0.013*"application" + 0.012*"highly"
+Topic: 15 
+Words: 0.017*"tumo" + 0.013*"creative" + 0.012*"center" + 0.012*"store" + 0.009*"technology" + 0.009*"operation" + 0.009*"incumbent" + 0.008*"transmission" + 0.008*"stock" + 0.007*"mysql"
+Topic: 16 
+Words: 0.062*"software" + 0.029*"developer" + 0.027*"engineer" + 0.024*"application" + 0.022*"team" + 0.022*"product" + 0.021*"quality" + 0.021*"design" + 0.020*"senior" + 0.020*"project"
+Topic: 17 
+Words: 0.055*"marketing" + 0.042*"sales" + 0.020*"company" + 0.020*"market" + 0.018*"manager" + 0.018*"business" + 0.016*"advertising" + 0.015*"brand" + 0.015*"strategy" + 0.013*"designer"
+Topic: 18 
+Words: 0.018*"construction" + 0.010*"website" + 0.009*"warehouse" + 0.009*"university" + 0.009*"teacher" + 0.008*"teaching" + 0.008*"thinking" + 0.008*"estate" + 0.008*"french" + 0.007*"servicing"
+Topic: 19 
+Words: 0.018*"project" + 0.015*"program" + 0.012*"armenia" + 0.010*"office" + 0.009*"implementation" + 0.009*"development" + 0.008*"activity" + 0.008*"support" + 0.008*"programme" + 0.008*"manager"
+
+
+Job Requirement Topics (BoW): 
+Topic: 0 
+Words: 0.030*"program" + 0.024*"project" + 0.023*"development" + 0.021*"management" + 0.017*"staff" + 0.016*"implementation" + 0.016*"policy" + 0.015*"programme" + 0.014*"activity" + 0.014*"donor"
+Topic: 1 
+Words: 0.048*"test" + 0.048*"design" + 0.043*"software" + 0.035*"application" + 0.034*"development" + 0.025*"team" + 0.023*"testing" + 0.023*"code" + 0.018*"requirement" + 0.017*"documentation"
+Topic: 2 
+Words: 0.020*"store" + 0.018*"control" + 0.018*"safety" + 0.017*"quality" + 0.015*"guest" + 0.014*"standard" + 0.013*"equipment" + 0.013*"food" + 0.012*"work" + 0.012*"service"
+Topic: 3 
+Words: 0.057*"office" + 0.031*"meeting" + 0.030*"document" + 0.020*"correspondence" + 0.016*"support" + 0.016*"assist" + 0.015*"duty" + 0.015*"translation" + 0.013*"report" + 0.013*"english"
+Topic: 4 
+Words: 0.032*"customer" + 0.029*"information" + 0.025*"call" + 0.020*"vehicle" + 0.019*"answer" + 0.017*"order" + 0.017*"duty" + 0.015*"staff" + 0.015*"inquiry" + 0.015*"perform"
+Topic: 5 
+Words: 0.056*"training" + 0.032*"staff" + 0.031*"employee" + 0.016*"personnel" + 0.015*"process" + 0.015*"resource" + 0.015*"program" + 0.015*"activity" + 0.015*"development" + 0.015*"recruitment"
+Topic: 6 
+Words: 0.060*"design" + 0.036*"content" + 0.028*"site" + 0.026*"production" + 0.022*"website" + 0.019*"material" + 0.019*"company" + 0.012*"marketing" + 0.012*"page" + 0.011*"user"
+Topic: 7 
+Words: 0.097*"project" + 0.028*"activity" + 0.023*"implementation" + 0.019*"report" + 0.014*"plan" + 0.013*"procurement" + 0.011*"work" + 0.010*"consultant" + 0.009*"evaluation" + 0.009*"training"
+Topic: 8 
+Words: 0.037*"community" + 0.027*"sector" + 0.025*"child" + 0.023*"program" + 0.018*"support" + 0.017*"coordinator" + 0.017*"education" + 0.016*"marz" + 0.016*"capacity" + 0.015*"stakeholder"
+Topic: 9 
+Words: 0.048*"medium" + 0.038*"event" + 0.030*"material" + 0.026*"activity" + 0.020*"information" + 0.019*"organization" + 0.017*"communication" + 0.015*"organize" + 0.014*"press" + 0.014*"website"
+Topic: 10 
+Words: 0.056*"sales" + 0.048*"customer" + 0.044*"product" + 0.037*"market" + 0.036*"company" + 0.036*"marketing" + 0.022*"plan" + 0.020*"client" + 0.020*"business" + 0.018*"strategy"
+Topic: 11 
+Words: 0.079*"data" + 0.049*"analysis" + 0.036*"report" + 0.021*"business" + 0.020*"process" + 0.017*"management" + 0.017*"reporting" + 0.017*"system" + 0.013*"information" + 0.012*"cost"
+Topic: 12 
+Words: 0.072*"system" + 0.033*"network" + 0.025*"equipment" + 0.024*"database" + 0.023*"security" + 0.022*"support" + 0.021*"software" + 0.017*"information" + 0.017*"maintenance" + 0.016*"services"
+Topic: 13 
+Words: 0.077*"branch" + 0.030*"service" + 0.027*"unit" + 0.021*"operations" + 0.018*"cash" + 0.017*"staff" + 0.016*"management" + 0.015*"customer" + 0.015*"performance" + 0.014*"within"
+Topic: 14 
+Words: 0.041*"accounting" + 0.040*"report" + 0.023*"cash" + 0.022*"payment" + 0.022*"audit" + 0.022*"control" + 0.021*"company" + 0.020*"account" + 0.018*"system" + 0.017*"prepare"
+Topic: 15 
+Words: 0.077*"team" + 0.035*"business" + 0.035*"development" + 0.031*"member" + 0.028*"project" + 0.022*"process" + 0.020*"work" + 0.020*"requirement" + 0.019*"management" + 0.017*"quality"
+Topic: 16 
+Words: 0.071*"credit" + 0.066*"loan" + 0.055*"client" + 0.018*"portfolio" + 0.017*"customer" + 0.017*"analysis" + 0.016*"card" + 0.016*"report" + 0.015*"application" + 0.014*"business"
+Topic: 17 
+Words: 0.034*"bank" + 0.030*"contract" + 0.025*"company" + 0.022*"document" + 0.021*"customer" + 0.017*"risk" + 0.015*"process" + 0.013*"issue" + 0.012*"compliance" + 0.012*"information"
+
+
+Job Requirement Topics (TF-IDF): 
+Topic: 0 
+Words: 0.047*"test" + 0.025*"software" + 0.020*"testing" + 0.016*"design" + 0.014*"development" + 0.014*"defect" + 0.013*"case" + 0.013*"team" + 0.011*"requirement" + 0.010*"part"
+Topic: 1 
+Words: 0.010*"carrier" + 0.009*"healthcare" + 0.008*"modeling" + 0.007*"oracle" + 0.007*"set" + 0.006*"trading" + 0.006*"layer" + 0.006*"voltage" + 0.006*"logic" + 0.006*"continue/"
+Topic: 2 
+Words: 0.014*"laboratory" + 0.010*"leaflet" + 0.008*"cluster" + 0.008*"validation" + 0.007*"corner" + 0.007*"booklet" + 0.006*"tester" + 0.006*"orient" + 0.006*"run" + 0.006*"error"
+Topic: 3 
+Words: 0.049*"application" + 0.036*"design" + 0.029*"software" + 0.021*"effectively" + 0.021*"team" + 0.020*"communicate" + 0.019*"feature" + 0.019*"documentation" + 0.019*"member" + 0.017*"develop"
+Topic: 4 
+Words: 0.040*"credit" + 0.037*"loan" + 0.018*"branch" + 0.017*"client" + 0.016*"customer" + 0.011*"portfolio" + 0.011*"lending" + 0.010*"repayment" + 0.009*"committee" + 0.008*"risk"
+Topic: 5 
+Words: 0.022*"sales" + 0.019*"customer" + 0.016*"market" + 0.015*"marketing" + 0.014*"product" + 0.013*"client" + 0.012*"company" + 0.009*"strategy" + 0.009*"business" + 0.008*"services"
+Topic: 6 
+Words: 0.019*"accounting" + 0.011*"bank" + 0.011*"cash" + 0.010*"report" + 0.009*"control" + 0.009*"company" + 0.009*"audit" + 0.008*"payment" + 0.008*"transactions" + 0.007*"account"
+Topic: 7 
+Words: 0.018*"doctor" + 0.017*"store" + 0.014*"visit" + 0.013*"good" + 0.012*"pharmacist" + 0.012*"product" + 0.011*"sales" + 0.010*"customer" + 0.010*"company" + 0.009*"supplier"
+Topic: 8 
+Words: 0.015*"compensation" + 0.011*"debt" + 0.010*"payables" + 0.009*"estate" + 0.008*"backend" + 0.008*"code" + 0.008*"debtor" + 0.007*"employ" + 0.007*"naming" + 0.006*"welfare"
+Topic: 9 
+Words: 0.019*"design" + 0.014*"application" + 0.010*"user" + 0.010*"software" + 0.009*"code" + 0.009*"technology" + 0.008*"development" + 0.008*"system" + 0.008*"solution" + 0.008*"team"
+Topic: 10 
+Words: 0.019*"verification" + 0.013*"hotel" + 0.011*"parts" + 0.010*"tour" + 0.010*"research" + 0.010*"plant" + 0.009*"application" + 0.008*"design" + 0.007*"guest" + 0.007*"disseminate"
+Topic: 11 
+Words: 0.008*"choice" + 0.007*"appeal" + 0.007*"vault" + 0.007*"apis" + 0.007*"visual" + 0.007*"multi" + 0.007*"beginning" + 0.007*"british" + 0.007*"diagnose" + 0.006*"mentorship"
+Topic: 12 
+Words: 0.013*"trainee" + 0.011*"transmission" + 0.010*"client/" + 0.008*"club" + 0.008*"involve" + 0.006*"scan" + 0.006*"easily" + 0.006*"complaint" + 0.006*"consumables" + 0.005*"saas"
+Topic: 13 
+Words: 0.018*"correspondence" + 0.017*"office" + 0.017*"translation" + 0.016*"meeting" + 0.015*"call" + 0.014*"english" + 0.013*"document" + 0.011*"telephone" + 0.011*"language" + 0.011*"translate"
+Topic: 14 
+Words: 0.016*"equipment" + 0.015*"system" + 0.015*"network" + 0.011*"maintenance" + 0.010*"security" + 0.009*"server" + 0.009*"computer" + 0.009*"data" + 0.008*"database" + 0.008*"hardware"
+Topic: 15 
+Words: 0.020*"project" + 0.010*"program" + 0.009*"training" + 0.008*"implementation" + 0.008*"activity" + 0.007*"community" + 0.006*"staff" + 0.006*"development" + 0.006*"programme" + 0.006*"organization"
+Topic: 16 
+Words: 0.025*"medium" + 0.018*"website" + 0.015*"press" + 0.014*"material" + 0.013*"content" + 0.013*"news" + 0.010*"event" + 0.010*"article" + 0.009*"site" + 0.008*"release"
+Topic: 17 
+Words: 0.032*"code" + 0.024*"read" + 0.019*"conformance" + 0.019*"coding" + 0.019*"software" + 0.018*"assure" + 0.017*"specification" + 0.017*"food" + 0.014*"source" + 0.014*"team"
+
+
+Required Qualification Topics (BoW): 
+Topic: 0 
+Words: 0.096*"knowledge" + 0.074*"experience" + 0.033*"language" + 0.029*"skill" + 0.026*"years" + 0.026*"development" + 0.024*"database" + 0.024*"plus" + 0.020*"java" + 0.019*"work"
+Topic: 1 
+Words: 0.052*"finance" + 0.051*"skill" + 0.043*"banking" + 0.036*"economics" + 0.031*"ability" + 0.027*"experience" + 0.024*"analysis" + 0.022*"business" + 0.020*"bank" + 0.019*"team"
+Topic: 2 
+Words: 0.163*"knowledge" + 0.079*"experience" + 0.064*"language" + 0.053*"work" + 0.046*"education" + 0.044*"years" + 0.035*"field" + 0.029*"least" + 0.027*"legislation" + 0.018*"banking"
+Topic: 3 
+Words: 0.074*"security" + 0.031*"information" + 0.024*"operation" + 0.023*"equipment" + 0.023*"safety" + 0.021*"vehicle" + 0.021*"level" + 0.019*"care" + 0.019*"candidate" + 0.017*"applicant"
+Topic: 4 
+Words: 0.068*"knowledge" + 0.055*"experience" + 0.049*"skill" + 0.034*"development" + 0.031*"software" + 0.029*"ability" + 0.027*"language" + 0.025*"degree" + 0.025*"science" + 0.024*"computer"
+Topic: 5 
+Words: 0.085*"network" + 0.078*"knowledge" + 0.054*"system" + 0.043*"windows" + 0.034*"server" + 0.030*"experience" + 0.029*"administration" + 0.025*"technology" + 0.020*"microsoft" + 0.017*"protocol"
+Topic: 6 
+Words: 0.098*"skill" + 0.032*"willingness" + 0.026*"excel" + 0.024*"excellent" + 0.022*"word" + 0.021*"bank" + 0.020*"environment" + 0.019*"organization" + 0.017*"hours" + 0.016*"world"
+Topic: 7 
+Words: 0.139*"ability" + 0.022*"task" + 0.021*"environment" + 0.018*"pressure" + 0.018*"effectively" + 0.015*"attention" + 0.015*"detail" + 0.013*"team" + 0.013*"deadline" + 0.013*"language"
+Topic: 8 
+Words: 0.064*"experience" + 0.031*"skill" + 0.028*"degree" + 0.026*"management" + 0.026*"years" + 0.025*"knowledge" + 0.025*"project" + 0.024*"language" + 0.015*"field" + 0.013*"development"
+Topic: 9 
+Words: 0.095*"skill" + 0.071*"knowledge" + 0.059*"language" + 0.040*"ability" + 0.039*"experience" + 0.036*"communication" + 0.028*"work" + 0.027*"computer" + 0.025*"degree" + 0.023*"office"
+Topic: 10 
+Words: 0.082*"ability" + 0.037*"work" + 0.035*"knowledge" + 0.034*"construction" + 0.033*"license" + 0.031*"experience" + 0.031*"language" + 0.018*"engineering" + 0.017*"driver" + 0.016*"availability"
+Topic: 11 
+Words: 0.104*"accounting" + 0.080*"knowledge" + 0.043*"experience" + 0.040*"finance" + 0.028*"software" + 0.028*"skill" + 0.027*"ability" + 0.020*"standard" + 0.019*"plus" + 0.017*"audit"
+Topic: 12 
+Words: 0.078*"ability" + 0.046*"skill" + 0.033*"team" + 0.033*"design" + 0.020*"understanding" + 0.019*"personality" + 0.018*"communication" + 0.014*"experience" + 0.014*"well" + 0.013*"project"
+Topic: 13 
+Words: 0.033*"student" + 0.031*"design" + 0.027*"engineering" + 0.027*"tool" + 0.027*"understanding" + 0.024*"electronics" + 0.018*"circuit" + 0.016*"device" + 0.016*"radio" + 0.015*"physics"
+Topic: 14 
+Words: 0.055*"skill" + 0.054*"ability" + 0.051*"experience" + 0.024*"development" + 0.021*"training" + 0.019*"education" + 0.016*"knowledge" + 0.015*"community" + 0.013*"work" + 0.012*"willingness"
+Topic: 15 
+Words: 0.094*"experience" + 0.045*"knowledge" + 0.029*"testing" + 0.027*"development" + 0.024*"ability" + 0.020*"years" + 0.019*"understanding" + 0.018*"tool" + 0.018*"skill" + 0.015*"software"
+Topic: 16 
+Words: 0.077*"skill" + 0.050*"management" + 0.048*"experience" + 0.037*"business" + 0.033*"knowledge" + 0.030*"ability" + 0.027*"marketing" + 0.021*"years" + 0.018*"degree" + 0.016*"communication"
+Topic: 17 
+Words: 0.065*"adobe" + 0.063*"knowledge" + 0.059*"experience" + 0.055*"photoshop" + 0.037*"language" + 0.027*"illustrator" + 0.026*"corel" + 0.026*"draw" + 0.023*"flash" + 0.021*"html"
+
+
+Required Qualification Topics (TF-IDF): 
+Topic: 0 
+Words: 0.016*"b.s." + 0.013*"patient" + 0.013*"request" + 0.012*"enthusiasm" + 0.011*"career" + 0.009*"evidence" + 0.008*"care" + 0.007*"proactive" + 0.007*"device" + 0.007*"controller"
+Topic: 1 
+Words: 0.023*"education" + 0.018*"personality" + 0.018*"field" + 0.016*"work" + 0.016*"sales" + 0.016*"sense" + 0.015*"pressure" + 0.015*"responsibility" + 0.015*"skill" + 0.014*"customer"
+Topic: 2 
+Words: 0.036*"accounting" + 0.023*"banking" + 0.022*"finance" + 0.018*"legislation" + 0.014*"economics" + 0.014*"bank" + 0.010*"standard" + 0.009*"office" + 0.009*"least" + 0.009*"university"
+Topic: 3 
+Words: 0.019*"together" + 0.018*"pharmaceutical/" + 0.012*"tourism" + 0.011*"privilege" + 0.009*"command" + 0.008*"applicant" + 0.008*"2014" + 0.008*"organizational" + 0.008*"literacy" + 0.008*"education"
+Topic: 4 
+Words: 0.043*"adobe" + 0.036*"photoshop" + 0.024*"design" + 0.022*"draw" + 0.022*"corel" + 0.021*"illustrator" + 0.014*"flash" + 0.008*"video" + 0.008*"coreldraw" + 0.008*"website"
+Topic: 5 
+Words: 0.017*"2005" + 0.016*"kind" + 0.014*"namely" + 0.012*"warehouse" + 0.011*"2012" + 0.011*"fulfillment" + 0.010*"exposure" + 0.010*"protection" + 0.009*"disaster" + 0.008*"operational"
+Topic: 6 
+Words: 0.014*"mastery" + 0.013*"supervision" + 0.013*"without" + 0.011*"pharmacology" + 0.010*"starter" + 0.010*"task" + 0.010*"telecom" + 0.010*"passion" + 0.009*"professionalism" + 0.009*"workload"
+Topic: 7 
+Words: 0.011*"linguistics" + 0.010*"office" + 0.009*"administration" + 0.009*"english" + 0.009*"package" + 0.009*"procurement" + 0.008*"word" + 0.008*"excellent" + 0.007*"business" + 0.007*"field"
+Topic: 8 
+Words: 0.027*"testing" + 0.014*"tool" + 0.013*"script" + 0.013*"test" + 0.013*"programming" + 0.012*"software" + 0.011*"development" + 0.010*"automation" + 0.010*"linux" + 0.010*"algorithm"
+Topic: 9 
+Words: 0.018*"food" + 0.015*"ruby" + 0.013*"hotel" + 0.012*"sybase" + 0.012*"suse" + 0.011*"beverage" + 0.011*"restaurant" + 0.011*"study" + 0.010*"linq" + 0.010*"ubuntu"
+Topic: 10 
+Words: 0.033*"network" + 0.019*"system" + 0.018*"windows" + 0.013*"server" + 0.013*"security" + 0.012*"hardware" + 0.012*"administration" + 0.010*"linux" + 0.009*"protocol" + 0.009*"maintenance"
+Topic: 11 
+Words: 0.020*"chemistry" + 0.015*"template" + 0.013*"biology" + 0.008*"nutrition" + 0.008*"discussion" + 0.008*"undergraduate" + 0.008*"amadeus" + 0.008*"nationality" + 0.007*"religion" + 0.007*"gabriel"
+Topic: 12 
+Words: 0.023*"integrity" + 0.017*"efficiency" + 0.017*"action" + 0.014*"commitment" + 0.013*"high" + 0.013*"accuracy" + 0.011*"energetic" + 0.011*"discipline" + 0.011*"person" + 0.010*"hands"
+Topic: 13 
+Words: 0.011*"management" + 0.009*"project" + 0.009*"ability" + 0.006*"development" + 0.006*"training" + 0.006*"organization" + 0.006*"excellent" + 0.005*"skill" + 0.005*"business" + 0.005*"writing"
+Topic: 14 
+Words: 0.028*"manner" + 0.027*"mail" + 0.023*"excel" + 0.022*"word" + 0.022*"internet" + 0.020*"task" + 0.017*"point" + 0.016*"power" + 0.015*"self" + 0.013*"plus"
+Topic: 15 
+Words: 0.018*"development" + 0.014*"technology" + 0.014*"java" + 0.014*"database" + 0.014*"javascript" + 0.013*"programming" + 0.013*"framework" + 0.012*"server" + 0.012*".net" + 0.011*"design"
+Topic: 16 
+Words: 0.013*"business" + 0.013*"market" + 0.013*"conflict" + 0.012*"sales" + 0.011*"stress" + 0.011*"situation" + 0.011*"telecommunication" + 0.011*"people" + 0.010*"marketing" + 0.009*"management"
+Topic: 17 
+Words: 0.025*"license" + 0.019*"medicine" + 0.018*"driving" + 0.016*"engineering" + 0.016*"driver" + 0.013*"advantage" + 0.012*"construction" + 0.011*"education" + 0.011*"pharmacy" + 0.011*"pharmaceutical"
+
+----------------------------------------------------------------
+
+Example Test Data: "Investment Consulting Company is seeking a Chief Financial Officer. This position manages the company's fiscal and administrative functions, provides highly responsible and technically complex staff assistance to the Executive Director. The work performed requires a high level of technical proficiency in financial management and investment management, as well as management, supervisory and administrative skills."
+
+Noun Phrases...
+--- [Format: Noun Phrase -> Root Text] ---
+Investment Consulting Company -> Company
+a Chief Financial Officer -> Officer
+This position -> position
+the company's fiscal and administrative functions -> functions
+highly responsible and technically complex staff assistance -> assistance
+the Executive Director -> Director
+The work -> work
+a high level -> level
+technical proficiency -> proficiency
+financial management and investment management -> management
+management -> management
+skills -> skills
+
+
+Topics relevant to new document are (BoW): 
+Score: 0.43358665704727173	 Topic: 0.052*"office" + 0.049*"director" + 0.044*"management" + 0.043*"manager" + 0.034*"assistant" + 0.027*"supervision" + 0.026*"operations" + 0.022*"executive" + 0.022*"activity" + 0.022*"incumbent"
+Score: 0.1840825229883194	 Topic: 0.029*"management" + 0.026*"incumbent" + 0.026*"analysis" + 0.023*"data" + 0.022*"procedure" + 0.022*"business" + 0.020*"risk" + 0.019*"report" + 0.018*"policy" + 0.018*"finance"
+Score: 0.16247783601284027	 Topic: 0.166*"position" + 0.138*"candidate" + 0.062*"company" + 0.039*"highly" + 0.038*"cjsc" + 0.031*"person" + 0.022*"manager" + 0.017*"specialist" + 0.017*"team" + 0.016*"supervision"
+
+
+Topics relevant to new document are (TF-IDF): 
+Score: 0.43545523285865784	 Topic: 0.049*"accountant" + 0.048*"accounting" + 0.030*"chief" + 0.023*"company" + 0.020*"financial" + 0.017*"supervision" + 0.017*"director" + 0.017*"assistant" + 0.015*"department" + 0.015*"duty"
+Score: 0.21969853341579437	 Topic: 0.018*"project" + 0.015*"program" + 0.012*"armenia" + 0.010*"office" + 0.009*"implementation" + 0.009*"development" + 0.008*"activity" + 0.008*"support" + 0.008*"programme" + 0.008*"manager"
+Score: 0.17757698893547058	 Topic: 0.026*"feature" + 0.021*"news" + 0.019*"sourcio" + 0.015*"language" + 0.014*"partner" + 0.013*"agency" + 0.012*"english" + 0.012*"repair" + 0.011*"product" + 0.011*"translation"
