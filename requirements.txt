@@ -1,8 +1,8 @@
-pyLDAvis
-paramiko
+flask
 spacy
 nltk
 random
 pickle
 gensim
+numpy
 pandas
