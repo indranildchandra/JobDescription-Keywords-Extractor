@@ -3,3 +3,11 @@ JD_Keywords_Extractor aims to extract important keywords (topics) from any given
 
 ### Dataset:
 Dataset used for building this model was obtained from Kaggle @ https://www.kaggle.com/madhab/jobposts 
+
+### Instruction to containerize the application:
+
+- Build the image using the following command -
+$ docker build -t jobs-indicator-app:latest .
+
+- Run the Docker container using the following command -
+$ docker run -d -p 5000:5000 jobs-indicator-app

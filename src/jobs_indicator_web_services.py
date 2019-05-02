@@ -97,7 +97,13 @@ def processKeywords(new_doc):
 	print("Noun Phrases...")
 	print("--- [Format: Noun Phrase -> Root Text] ---")
 	for noun_phrase in document.noun_chunks:
-		noun_phrases.append(noun_phrase.text)
+		phrase_entry = {
+			'phrase':"",
+			'root_text':""
+		}
+		phrase_entry['phrase'] = noun_phrase.text
+		phrase_entry['root_text'] = noun_phrase.root.text
+		noun_phrases.append(phrase_entry)
 		print(noun_phrase.text + " -> " + noun_phrase.root.text)
 
 	print("\n\nTopics relevant to new document are (BoW): ")	
@@ -129,31 +135,31 @@ def processKeywords(new_doc):
 		
 
 
-	counter = 0
-	print("\n\nTopics relevant to new document are (TF-IDF): ")
-	for index, score in sorted(job_description_tfidf_lda_model[new_doc_tfidf], key=lambda tup: tup[1], reverse=True):
-		topic = {
-			'topic_index':"",
-			'topic_conf':"",
-			'topic': ""
-		}
-		if counter == 0:
-			topic['topic_index'] = str(index)
-			topic['topic_conf'] = str(score)
-			topic['topic'] = job_description_tfidf_lda_model.print_topic(index, 10)
-			tfidf_topics.append(topic)
-			print("Score: {}\t Topic: {}".format(score, job_description_tfidf_lda_model.print_topic(index, 10)))
-			highest_score = score
-			counter = counter + 1
-		elif highest_score - score <= 0.2:
-			topic['topic_index'] = str(index)
-			topic['topic_conf'] = str(score) 
-			topic['topic'] = job_description_tfidf_lda_model.print_topic(index, 10)
-			tfidf_topics.append(topic)
-			print("Score: {}\t Topic: {}".format(score, job_description_tfidf_lda_model.print_topic(index, 10)))
-			counter = counter + 1
-		else:
-			break
+	# counter = 0
+	# print("\n\nTopics relevant to new document are (TF-IDF): ")
+	# for index, score in sorted(job_description_tfidf_lda_model[new_doc_tfidf], key=lambda tup: tup[1], reverse=True):
+	# 	topic = {
+	# 		'topic_index':"",
+	# 		'topic_conf':"",
+	# 		'topic': ""
+	# 	}
+	# 	if counter == 0:
+	# 		topic['topic_index'] = str(index)
+	# 		topic['topic_conf'] = str(score)
+	# 		topic['topic'] = job_description_tfidf_lda_model.print_topic(index, 10)
+	# 		tfidf_topics.append(topic)
+	# 		print("Score: {}\t Topic: {}".format(score, job_description_tfidf_lda_model.print_topic(index, 10)))
+	# 		highest_score = score
+	# 		counter = counter + 1
+	# 	elif highest_score - score <= 0.2:
+	# 		topic['topic_index'] = str(index)
+	# 		topic['topic_conf'] = str(score) 
+	# 		topic['topic'] = job_description_tfidf_lda_model.print_topic(index, 10)
+	# 		tfidf_topics.append(topic)
+	# 		print("Score: {}\t Topic: {}".format(score, job_description_tfidf_lda_model.print_topic(index, 10)))
+	# 		counter = counter + 1
+	# 	else:
+	# 		break
 		
 
 	keywords['noun_phrases'] = noun_phrases
